@@ -1,33 +1,33 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color: white; 
-}
-
+} /*cor de fundo clara e fonte legível*/
 
 .cabecalhoContainer {
     margin-top: 2%;
     width: 100%;
-}
+} /*largura total do cabeçalho*/
+
 .menu {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-}
+} /*fonte legível e tamanho adequado*/
 
 #menuNav {
     display: flex;
     justify-content: center;
     flex: 1; 
-}
+} /*centraliza o menu de navegação*/
 
 #menuLogin {
     display: flex;
     margin-right: 2%;
-}
+} /*margem direita do menu de login*/
 
 #menuNav li, #menuLogin li {
     margin: 0 15px;
-}
+} /*espaçamento entre itens*/
 
 #menuNav a, #menuLogin a {
     color: #697159;
@@ -36,12 +36,12 @@ body {
     padding: 10px 5px;
     border-radius: 12px;
     transition: all 0.3s ease;
-}
+} /*estilo dos links*/
 
 #menuNav li a:hover, #menuLogin li a:hover {
     background-color:  #deacab;
     color: white;
-}
+} /*efeito hover dos links*/
 
 .rodape {
     background-color: #8f987d;
@@ -50,7 +50,7 @@ body {
     margin-top: 40px;
     font-size: 14px;
     margin-bottom: 0;
-}
+} /*estilo do rodapé */
 
 .rodape-container {
     display: flex;
@@ -59,13 +59,13 @@ body {
     flex-wrap: wrap; 
     gap: 15px;
     margin-bottom: 10px;
-}
+} /*container do rodapé*/
 
 .linksRodape {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
-}
+} /*links do rodapé*/
 
 .linksRodape a {
     color: #f7f3f1;
@@ -74,35 +74,35 @@ body {
     transition: all 0.3s ease;
     padding: 5px 8px;
     border-radius: 8px;
-}
+} /*estilo dos links do rodapé*/
 
 .linksRodape a:hover {
     background-color: #deacab;
     color: white;
-}
+} /*efeito hover dos links do rodapé*/
 
 .redesSociaisRodape {
     display: flex;
     gap: 15px;
-}
+} /*redes sociais do rodapé*/
 
 .redesSociaisRodape img {
     height: 35px;
     width: 35px;
     transition: transform 0.3s ease, filter 0.3s ease;
-}
+} /*estilo das imagens das redes sociais */
 
 .redesSociaisRodape img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
-}
+} /*efeito hover das imagens das redes sociais */
 
 .rodape p {
     text-align: center;
     font-size: 13px;
     opacity: 0.9;
     margin-top: 10px;
-}
+} /*texto de direitos autorais*/
 
 .secaoHero {
     display: flex;
@@ -119,14 +119,14 @@ body {
     padding: 60px 8%;
     flex-direction: row; /* garante lado a lado */
     margin: 2% auto 70px auto;
-}
+} /*seção hero*/
 
 .conteudoHero {
     flex: 1 1 400px;
     text-align: left;
     flex: 1 1 500px;
     max-width: 600px;
-}
+} /*conteúdo hero*/
 
 .imagemHero {
     display: flex;
@@ -136,7 +136,7 @@ body {
     text-align: center;
     margin: 0 auto; 
     padding: 0; 
-}
+} /*imagem hero*/
 
 .quadroImagem {
     background-color: #8f987d; 
@@ -154,7 +154,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /*quadro da imagem hero*/
 
 .quadroImagem img {
     width: 100%;
@@ -162,7 +162,7 @@ body {
     object-fit: cover;
     display: block;
     border-radius: 20px;
-}
+} /*imagem dentro do quadro*/
 
 .tagInovacao {
     display: inline-block;
@@ -173,24 +173,24 @@ body {
     font-size: 0.9em;
     font-weight: bold;
     margin-bottom: 20px;
-}
+} /*tag de inovação */
 
 .tituloPrincipal {
     font-size: 3em;
     color: #697159; 
     margin: 0 0 15px 0;
-}
+} /*título principal*/
 
 .destaqueTitulo {
     color: #bdc6aa; 
-}
+} /*destaque no título principal*/
 
 .textoDescricao {
     font-size: 1.1em;
     color: #8f987d; 
     margin-bottom: 30px;
     line-height: 1.6;
-}
+} /*texto descritivo*/
 
 .areaBotoes a {
     text-decoration: none;
@@ -199,28 +199,28 @@ body {
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
     margin-right: 15px;
-}
-
+} /*área dos botões*/
+ 
 .botaoPrimario {
     background-color: #697159; 
     color: white;
     border: 2px solid #697159;
-}
+} /*botão primário */
 
 .botaoPrimario:hover {
     background-color: #555d49;
-}
+} /*efeito hover do botão primário */
 
 .botaoSecundario {
     background-color: transparent;
     color: #697159; 
     border: 2px solid #697159;
-}
+} /*botão secundário*/
 
 .botaoSecundario:hover {
     background-color: #697159;
     color: white;
-}
+} /*efeito hover do botão secundário*/
 
 
 .secaoTecnologia {
@@ -231,13 +231,13 @@ body {
     background-color: #f7e9e8; 
     border-radius: 18px;
     border: 2px solid #e6d6d6;
-}
+} /*seção de tecnologia*/
 
 .tituloSecundario {
     font-size: 2.5em;
     color: #697159; 
     margin-bottom: 10px;
-}
+} /*título secundário*/
 
 .subtituloTecnologia {
     font-size: 1.1em;
@@ -246,14 +246,14 @@ body {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-}
+} /*subtítulo da seção de tecnologia*/
 
 .cardsRecursos {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
-}
+} /*container dos cards de recursos*/
 
 .cardRecurso {
     flex: 1;
@@ -267,20 +267,20 @@ body {
     border: 2px solid #e6d6d6;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     cursor: pointer; /* indica que é interativo */
-}
+} /*estilo dos cards de recursos*/
 
 .cardRecurso:hover {
     transform: translateY(-8px) scale(1.02);
     background-color: #deacab;
 
-}
+} /*efeito hover dos cards de recursos*/
 
 .cardRecurso:hover .tituloCard,
 .cardRecurso:hover .textoCard  {
     color: white; 
     transition: color 0.3s ease;
     
-}
+} /*muda a cor do texto no hover do card*/
 
 .iconeCard {
     width: clamp(100px, 18%, 140px);  
@@ -297,36 +297,36 @@ body {
     transition: transform 0.3s ease, background-color 0.3s ease;
     font-size: clamp(32px, 5vw, 60px); 
     line-height: 1;
-}
+} /*estilo do ícone do card*/
 
 .iconeCard img {
     width: 90%;
     height: 90%;
     object-fit: contain;
     display: block;
-}
+} /*imagem do ícone do card*/
 
 .svgIcone {
     width: 70%;  
     height: 70%;
     display: block;
-}
+} /*ícone SVG do card*/
 
 .cardRecurso:hover .iconeCard {
     transform: translateY(-8px) scale(1.02);
     color: white;
-}
+} /*efeito hover do ícone do card*/
 
 .tituloCard {
     font-size: 1.3em;
     color: #697159; 
     margin: 0 0 10px 0;
-}
+} /*título do card*/
 
 .textoCard {
     color: #8f987d; 
     font-size: 0.95em;
-}
+} /*texto do card*/
 
 .secaoSustentavel {
     display: flex;
@@ -340,7 +340,7 @@ body {
     border-radius: 18px;
     border: 2px solid #e6d6d6;
     margin: 80px auto 80px auto; 
-}
+} /*seção sustentável*/
 
 .containerVideoFix {
     display: flex !important;
@@ -351,9 +351,8 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-}
+} /* container do vídeo fix*/
 
-/* Bloco de texto */
 .blocoTextoFix {
     flex: 1 1 45%;
     background: #f9f9f9;
@@ -368,9 +367,8 @@ body {
     border-radius: 18px;
     border: 2px solid #e6d6d6;
     margin: 80px auto 80px auto; 
-}
+} /* bloco de texto fix*/
 
-/* Bloco do vídeo */
 .blocoVideoFix {
     flex: 1 1 55%; /* ocupa mais espaço horizontal também */
     position: relative;
@@ -380,7 +378,7 @@ body {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
     border: 2px solid #e6d6d6;
-}
+} /* bloco do vídeo fix*/
 
 .blocoVideoFix iframe {
     position: absolute;
@@ -389,13 +387,13 @@ body {
     width: 100%;
     height: 100%;
     border: none;
-}
+} /* estilo do iframe do vídeo fix*/
 
 .countersWrapper {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-}
+} /* container dos contadores*/
 
 .contadorBox {
     text-align: center;
@@ -407,34 +405,32 @@ body {
     border: 2px solid #e6d6d6;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     cursor: pointer; /* indica que é interativo */
-}
+}  /* estilo do contadorBox*/
 
-/* Hover do contadorBox */
 .contadorBox:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 12px 24px rgba(109, 129, 64, 0.2);
     background-color: #deacab; /* cor do hover similar aos cards */
-}
+} /* efeito hover do contadorBox*/
 
-/* Muda a cor do texto dentro do contadorBox no hover */
 .contadorBox:hover .contador,
 .contadorBox:hover p {
     color: white; /* igual ao hover dos cards */
     transition: color 0.3s ease;
-}
+} /* muda a cor do texto no hover do contadorBox no hover*/
 
 .contador {
     font-size: 2.5rem;
     color: #6d8140;
     font-weight: bold;
-}
+} /* estilo do número do contador*/
 
 .contadorBox p {
     margin-top: 5px;
     font-size: 1rem;
     color: #deacab;
     font-weight: bold;
-}
+} /* estilo do texto do contador*/
 
 .caixaInformativa {
     max-width: 750px;
@@ -446,29 +442,29 @@ body {
     z-index: 1;
     border-radius: 18px;
     border: 2px solid #e6d6d6;
-}
+} /* caixa informativa geral*/
 
 .tituloCaixa {
     font-size: 1.8em;
     color: #697159; 
     margin-top: 0;
     margin-bottom: 15px;
-}
+} /* título da caixa informativa*/
 
 .textoCaixa {
     font-size: 1.1em;
     color: #8f987d; 
     line-height: 1.5;
-}
+} /* texto da caixa informativa*/
 
 #materiais {
     margin-top: 80px; 
     margin-bottom: 80px;
-}
+} /* ======== SEÇÃO MATERIAIS REUTILIZÁVEIS ======== */
 
 #beneficios {
     margin: 80px auto 80px auto; 
-}
+}  /* ======== SEÇÃO BENEFÍCIOS ======== */
 
 /* ======== SEÇÃO POLÍTICA DE USO ======== */
 .containerPolitica {
@@ -479,7 +475,7 @@ body {
     padding: 60px 8%;
     max-width: 1200px;
     margin: 0 auto;
-}
+} /* container da seção política de uso*/
 
 .caixaInformativa {
     flex: 1 1 50%;
@@ -487,18 +483,18 @@ body {
     padding: 40px;
     border-radius: 18px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-}
+} /* caixa informativa da seção política de uso*/
 
 .caixaInformativa h2 {
     margin-bottom: 15px;
-}
+} /* título da caixa informativa*/
 
 .imagemPolitica {
     flex: 1 1 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /* container da imagem da seção política de uso*/
 
 .imagemPolitica img {
     width: 100%;
@@ -508,7 +504,7 @@ body {
     border-radius: 18px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     object-fit: cover; /* preenche sem distorcer */
-}
+} /* estilo da imagem da seção política de uso*/
 
 .linhaDoTempo {
     max-width: 1000px;
@@ -519,14 +515,14 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     background-color: #f7e9e8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} /* seção linha do tempo*/
 
 .timeline-container {
     position: relative;
     margin: 40px 0;
     padding-left: 50px;
     border-left: 4px solid #6d8140; /* linha principal da timeline */
-}
+} /* container da timeline*/
 
 .timeline-item {
     position: relative;
@@ -538,7 +534,7 @@ body {
     box-shadow: 0 6px 16px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
-}
+} /* item da timeline*/
 
 .timeline-item::before {
     content: '';
@@ -552,40 +548,40 @@ body {
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, background-color 0.3s ease;
-}
+} /* círculo do item da timeline*/
 
 .timeline-item:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 12px 24px rgba(109, 129, 64, 0.2);
     background-color: #deacab;
-}
+} /* efeito hover do item da timeline*/
 
 .timeline-item:hover::before {
     background-color: #ffffff;
     transform: scale(1.2);
-}
+} /* efeito hover do círculo do item da timeline*/
 
 .timeline-date {
     font-weight: bold;
     color: #697159;
     margin-bottom: 10px;
     font-size: 1.1em;
-}
+} /* data do item da timeline*/
 
 .timeline-content {
     color: #8f987d;
     line-height: 1.6;
     font-size: 1em;
     transition: color 0.3s ease;
-}
+} /* conteúdo do item da timeline*/
 
 .timeline-item:hover .timeline-content {
     color: white;
-}
+} /* muda a cor do texto no hover do item da timeline*/
 
 #linhaDoTempoTitulo {
     text-align: center;
-}
+} /* título da linha do tempo*/
 
 .listaPassos details {
     background-color: #f0fdf4;
@@ -595,12 +591,12 @@ body {
     padding: 15px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
+} /* estilo dos detalhes da lista de passos*/
 
 .listaPassos details[open] {
     background-color: #e0f7e0;
     transform: scale(1.02);
-}
+} /* estilo quando aberto*/
 
 .listaPassos summary {
     font-weight: 600;
@@ -608,22 +604,22 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
-}
+} /* estilo do sumário da lista de passos*/
 
 .listaPassos summary::marker {
     content: "";
-}
+} /* remove marcador padrão*/
 
 .curiosidadesCards summary:hover {
     color: #2e7d32;
-}
+} /* efeito hover do sumário*/
 
 .curiosidadesCards p {
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.5;
     color: #333;
-}
+} /* estilo do parágrafo dentro dos detalhes*/
 
 .botaoFlutuante {
     position: fixed;
@@ -641,57 +637,56 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} /* botão flutuante*/
 
 .botaoFlutuante:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-}
+} /* efeito hover do botão flutuante*/
 
 .linhaCuriosidadesFAQ .faq {
     flex: 1 1 100%; /* ocupa toda a linha */
     margin-top: 40px; /* espaço entre curiosidades e FAQ */
-}
+} /* estilo da FAQ*/
 
 .tema-escuro {
     background-color: #121212;
     color: #e0e0e0;
-}
+} /* estilo geral do tema escuro*/
 
-/* Cabeçalho */
 .tema-escuro .cabecalhoContainer {
     background: rgba(18, 18, 18, 0.95) !important;
     border-bottom: 1px solid #2a2a2a;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-}
+} /* cabeçalho tema escuro*/
 
 
 .tema-escuro .secaoHero {
     background: linear-gradient(135deg, #242a31, #0b0c0c) !important;
     color: #f0f0f0;
     border: 2px solid #6d8140 !important;
-}
+} /* seção hero tema escuro*/
 
 .tema-escuro .contadorBox {
     background: #1e1e1e;
     border: 2px solid #6d8140 !important;
-}
+} /* contadorBox tema escuro*/
 
 .tema-escuro .cardRecurso {
     background: #1e1e1e !important;
     border: 2px solid #6d8140 !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+} /* cardRecurso tema escuro*/
 
 .tema-escuro .cardRecurso:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 24px rgba(109, 129, 64, 0.2);
-}
+} /* efeito hover do cardRecurso tema escuro*/
 
 .tema-escuro .listaPassos details {
     background: #242a31;
-}
+} /* detalhes da lista de passos tema escuro*/
 
 .tema-escuro .botaoFlutuante {
     background: linear-gradient(135deg, #3b4a5a, #2c3e50);
@@ -699,158 +694,158 @@ body {
     border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: background 0.3s ease, transform 0.2s ease;
-}
+} /* botão flutuante tema escuro*/
 
 .tema-escuro .botaoFlutuante:hover {
     background: linear-gradient(135deg, #4a5c70, #3a4f63);
     transform: translateY(-2px);
-}
+} /* efeito hover do botão flutuante tema escuro*/
 
 .tema-escuro .blocoVideoFix {
     border: 2px solid #6d8140 !important;
-}
+} /* bloco do vídeo fix tema escuro*/
 
 .tema-escuro .secaoTecnologia,
 .tema-escuro .secaoSustentavel {
     background: linear-gradient(135deg, #242a31, #0b0c0c) !important;
     color: #ddd;
     border: 2px solid #6d8140 !important;
-}
+} /* seções tema escuro*/
 
 .tema-escuro .linhaDoTempo {
     background: linear-gradient(135deg, #242a31, #0b0c0c) !important;
     border: 2px solid #6d8140 !important;
-}
+} /* linha do tempo tema escuro*/
 
 .tema-escuro .timeline-item {
     background-color: #1e1e1e; /* fundo geral */
     color: white;
-}
+} /* item da timeline tema escuro*/
 
 .tema-escuro .caixaInformativa {
     background: #1e1e1e;
     border: 2px solid #6d8140 !important;
-}
+} /* caixa informativa tema escuro*/
 
 .tema-escuro .imagemPolitica img {
     border: 2px solid #6d8140 !important;
-}
+} /* imagem da seção política de uso tema escuro*/
 
 .tema-escuro .tabelaMateriais {
     background-color: #1e1e1e; /* fundo geral */
     border-collapse: collapse;
     color: #e0e0e0; /* texto claro */
-}
+} /* tabela de materiais tema escuro*/
 
 .tema-escuro .tabelaMateriais th,
 .tema-escuro .tabelaMateriais td {
     border: 2px solid #6d8140 !important;
     padding: 10px;
     text-align: left;
-}
+} /* células da tabela tema escuro*/
 
 .tema-escuro .tabelaMateriais thead th {
     background-color: #2b2b2b; /* cabeçalho mais escuro */
     color: #f2f2f2;
-}
+} /* cabeçalho da tabela tema escuro*/
 
 .tema-escuro .tabelaMateriais tbody tr:nth-child(even) {
     background-color: #242424; /* linhas pares */
-}
+} /* linhas da tabela tema escuro*/
 
 .tema-escuro .tabelaMateriais tbody tr:nth-child(odd) {
     background-color: #1a1a1a; /* linhas ímpares */
-}
+} /* linhas da tabela tema escuro*/
 
 .tema-escuro .tabelaMateriais tbody tr:hover {
     background-color: #333333; /* destaque no hover */
     transition: background 0.3s ease;
-}
+} /* efeito hover da tabela tema escuro*/
 
 .tema-escuro a {
     color: #e0e0e0;
     text-decoration: none;
-}
+} /* links tema escuro*/
 
 .tema-escuro a:hover {
     color: #e0e0e0;
-}
+} /* efeito hover dos links tema escuro*/
 
 .tema-escuro button {
     background: #1b1b1b;
     color: #e0e0e0;
     border: 1px solid #333;
-}
+} /* botões tema escuro*/
 
 .tema-escuro button:hover {
     background: #333;
     color: #fff;
     border: 1px solid #555;
-}
+} /* efeito hover dos botões tema escuro*/
 
 .tema-escuro p {
     color: #e0e0e0;
-}
+} /* parágrafos tema escuro*/
 
 .tema-escuro .textoCaixa {
     color: #e0e0e0;
-}
+} /* texto da caixa informativa tema escuro*/
 
 body.tema-escuro .rodape {
     background-color: #1a2533;
     color: #e0e0e0;
-}
+} /* rodapé tema escuro*/
 
 body.tema-escuro .linksRodape a {
     color: #e0e0e0;
-}
+} /* links do rodapé tema escuro*/
 
 body.tema-escuro .linksRodape a:hover {
     background-color: #deacab;
     color: white;
-}
+} /* efeito hover dos links do rodapé tema escuro*/
 
 .digitando {
     border-right: 2px solid #0e4a27;
     animation: piscar 0.7s infinite;
-}
+} /* efeito de digitação */
 
 @keyframes piscar {
     0%, 100% { border-color: #0e4a27; }
     50% { border-color: transparent; }
-}
+} /* animação do cursor */
 
 .escondido {
     opacity: 0;
     transform: translateY(30px);
-}
+} /* inicia escondido e deslocado para baixo */
 
 .revelado {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.6s ease;
-}
+} /* revela com transição suave */
 
 
-@media (max-width: 900px) {
+@media (max-width: 900px) { 
     .secaoHero {
         flex-direction: column-reverse; /* imagem vai pra baixo do texto */
         text-align: center;
         padding: 40px 5%;
-    }
+    } /* seção hero no mobile*/
     
     .conteudoHero {
         max-width: 100%;
         margin-bottom: 30px;
         flex: none;
         width: 100%;
-    }
+    } /* conteúdo hero no mobile*/
 
     .imagemHero {
     flex: none;
     width: 100%;
     justify-content: center;
-    }
+    } /* imagem hero no mobile*/
 
     .quadroImagem {
     flex-direction: column;
@@ -858,55 +853,55 @@ body.tema-escuro .linksRodape a:hover {
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    }
+    } /* quadro da imagem hero no mobile*/
 
     .quadroImagem img {
     width: 90%; /* ocupa quase todo o bloco, centralizada */
     max-width: none;
     margin: 0 auto;
     display: block;
-    }
+    } /* imagem dentro do quadro no mobile*/
     
     .areaBotoes {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
+    } /* área dos botões no mobile*/
     
     .botaoFlutuante {
         display: none;
-    }
+    } /* esconde o botão flutuante no mobile*/
     
     .areaBotoes a {
         margin: 5px;
-    }
+    } /* espaçamento dos botões no mobile*/
 
     .quadroImagem {
         height: 300px;
-    }
-
+    } /* reduz altura do quadro da imagem no mobile*/
+ 
     .tituloPrincipal {
         font-size: 2.5em;
-    }
+    } /* título principal no mobile*/
 
     .cardsRecursos {
         justify-content: center;
-    }
+    } /* centraliza os cards de recursos no mobile*/
 
     .cardRecurso {
         max-width: 45%;
         margin-bottom: 20px;
-    }
+    } /* cards de recursos no mobile*/
 
     .linhaCuriosidadesFAQ {
         flex-direction: column;
         gap: 40px;
-    }
+    }   /* organiza curiosidades e FAQ em coluna no mobile*/
 
     .linhaCuriosidadesFAQ .secaoSustentavel {
         flex: 1 1 100%;
-    }
-}
+    } /* seção sustentável ocupa toda a largura no mobile*/
+} /* ajustes para telas menores que 900px */
 
 
 
@@ -1004,7 +999,7 @@ body.tema-escuro .linksRodape a:hover {
     .caixaInformativa td:nth-child(2),
     .caixaInformativa th:nth-child(2) {
     display: none;
-}
+    } /* esconde a segunda coluna da tabela no mobile*/
 
     .quadroImagem img {
         width: 300px;
@@ -1018,7 +1013,7 @@ body.tema-escuro .linksRodape a:hover {
     .tabelaMateriais thead th{background:#f9f5f5}
     .tabelaMateriais tbody tr:nth-child(even){background:#f7f3f1}
 
-}
+} /* ajustes para telas menores que 600px */
 
 /* === patches globais (fora de media queries) === */
 .cardRecurso { margin: 10px; }                     /* garante Margin nos 20 cards em todas as larguras */
