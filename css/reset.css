@@ -1,3 +1,5 @@
+/*------Retira os estilos padrões dos navegadores------*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,32 +19,37 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
+} /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} /* resets */
+
 body {
 	line-height: 1;
-}
+} /* body line height */
+
 ol, ul {
 	list-style: none;
-}
+} /* removes list styles */
+
 blockquote, q {
 	quotes: none;
-}
+} /* removes blockquote and q quotes */
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
+} /* removes content from blockquote and q */
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} /* table border collapse */
 
 a {
 	color: inherit;
 	text-decoration: none;
-}
+} /* removes link styles */
