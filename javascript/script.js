@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+// Funções principais
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🚀 Recycle JS - Inicializando funcionalidades...');
     
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     inicializarBotoes();
 });
 
-
+// Funções auxiliares
 function inicializarTema() {
     const botaoTema = document.getElementById('botaoTema');
     const temaSalvo = localStorage.getItem('temaRecycle');
@@ -61,7 +61,7 @@ function inicializarTema() {
     
     botaoTema.addEventListener('click', alternarTema);
 }
-
+// Alterna entre temas claro e escuro
 function alternarTema() {
     const botaoTema = document.getElementById('botaoTema');
     
@@ -71,19 +71,19 @@ function alternarTema() {
         ativarModoEscuro();
     }
 }
-
+// Ativa o modo escuro
 function ativarModoEscuro() {
     document.body.classList.add('tema-escuro');
     localStorage.setItem('temaRecycle', 'escuro');
     document.getElementById('botaoTema').textContent = '☀️';
 }
-
+// Desativa o modo escuro
 function desativarModoEscuro() {
     document.body.classList.remove('tema-escuro');
     localStorage.setItem('temaRecycle', 'claro');
     document.getElementById('botaoTema').textContent = '🌓';
 }
-
+// Inicializa o botão de voltar ao topo
 function inicializarBotaoTopo() {
     const botaoTopo = document.getElementById('botaoTopo');
     
@@ -110,7 +110,7 @@ function inicializarBotaoTopo() {
     });
 }
 
-
+// Inicializa o efeito typewriter
 function inicializarTypewriter() {
     const textosParaDigitar = [
         {
@@ -143,7 +143,7 @@ function inicializarTypewriter() {
         }
     });
 }
-
+// Função principal do efeito typewriter
 function iniciarTypewriter(config) {
     let textoIndex = 0;
     let charIndex = 0;
@@ -179,7 +179,7 @@ function iniciarTypewriter(config) {
     setTimeout(digitar, 1000);
 }
 
-
+// Inicializa o scroll suave para âncoras
 function inicializarScrollSuave() {
     const links = document.querySelectorAll('a[href^="#"]');
     
@@ -202,7 +202,7 @@ function inicializarScrollSuave() {
     });
 }
 
-
+// Inicializa o header dinâmico no scroll
 function inicializarHeaderDinamico() {
     const header = document.querySelector('.cabecalhoContainer');
     let ultimoScroll = 0;
@@ -231,7 +231,7 @@ function inicializarHeaderDinamico() {
     });
 }
 
-
+// Inicializa as animações ao rolar a página
 function inicializarAnimacoesScroll() {
     const elementos = document.querySelectorAll('.cardRecurso, .secaoTecnologia, .secaoSustentavel');
     
@@ -253,8 +253,7 @@ function inicializarAnimacoesScroll() {
     });
 }
 
-
-
+// Inicializa botões interativos
 function inicializarBotoes() {
     
     const botaoSaibaMais = document.querySelector('.botaoPrimario');
@@ -280,7 +279,7 @@ function inicializarBotoes() {
     });
 }
 
-
+// Função debounce para otimizar eventos de scroll e resize
 function debounce(func, wait) {
     let timeout;
     return function executedFunction(...args) {
@@ -293,7 +292,7 @@ function debounce(func, wait) {
     };
 }
 
-
+// Verifica se um elemento está visível na tela
 function estaNaTela(elemento) {
     const rect = elemento.getBoundingClientRect();
     return (
@@ -304,8 +303,10 @@ function estaNaTela(elemento) {
     );
 }
 
+// Mensagem de confirmação no console
 console.log('✅ Todas as funcionalidades JavaScript foram carregadas!');
 
+// Atalho de teclado para alternar tema
 document.addEventListener('keydown', (e) => {
     if (e.key.toLowerCase() === 't') {
     const b = document.body;
@@ -316,6 +317,7 @@ document.addEventListener('keydown', (e) => {
 }
 });
 
+// Atalho de teclado para botão de pontos
 const p = document.getElementById('btnPontos');
 if (p) p.addEventListener('keydown', (e) => { if (e.key === 'Enter') p.click(); });
 
@@ -355,8 +357,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Contadores animados
 const counters = document.querySelectorAll('.contador');
 
+// Função para animar cada contador
 counters.forEach(counter => {
     const updateCounter = () => {
         const target = +counter.getAttribute('data-target'); // número final
