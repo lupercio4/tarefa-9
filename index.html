@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--Configuração de meta e dos links, alem do titulo-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home | Recycle</title>
@@ -12,24 +13,24 @@
     
     </head>
 
-    <body>
-    <header class="cabecalhoContainer">
+    <body> <!--Corpo do site-->
+    <header class="cabecalhoContainer"><!--Cabeçalho com o menu de navegação-->
         <div>
-            <nav class="menu">
+            <nav class="menu"> <!--Navegação principal-->
                 <div class="hamburguer">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 
-                <ul id="menuNav">
+                <ul id="menuNav"> <!--Menu de navegação principal-->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="ods.html">ODSs</a></li>
                     <li><a href="embreve.html">Sobre a Máquina</a></li>
                     <li><a href="sobrenos.html">Sobre Nós</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
-                <ul id="menuLogin">
+                <ul id="menuLogin"> <!--Menu de login-->
                     <li><a href="login.html">Login</a></li>
                     <li><a href="embreve.html">Meu perfil</a></li>
                 </ul>
@@ -38,231 +39,248 @@
     </header>
 
 
-    <section id="heroIntroducao" class="secaoHero">
-        <div class="conteudoHero">
-        <span class="tagInovacao" aria-label="Selo de inovação sustentável">♻️ Inovação Sustentável</span>
-        <h1 class="tituloPrincipal">Conheça a <span class="destaqueTitulo">Recycle</span></h1>
-        <p class="textoDescricao" id="textoDescricao">
-            A máquina inteligente que transforma o descarte de PETs e latas de alumínio em uma experiência moderna, gratificante e sustentável.
-        </p>
-        <div class="areaBotoes">
-            <a href="#sobremaquina" class="botaoPrimario">Como funciona</a>
-            <a href="#video" class="botaoSecundario">Ver em Ação</a>
+    <section id="heroIntroducao" class="secaoHero"> <!--Seção de introdução com imagem e texto-->
+       
+        <div class="conteudoHero"> <!--Conteúdo textual da seção de introdução-->
+            <span class="tagInovacao" aria-label="Selo de inovação sustentável">♻️ Inovação Sustentável</span>
+            <h1 class="tituloPrincipal">Conheça a <span class="destaqueTitulo">Recycle</span></h1> <!--Título principal com destaque-->
+            <p class="textoDescricao" id="textoDescricao"> 
+            A máquina inteligente que transforma o descarte de PETs e latas de alumínio em uma experiência moderna, gratificante e sustentável.</p>
+            
+            <div class="areaBotoes"> <!--Área dos botões de ação-->
+                <a href="#sobremaquina" class="botaoPrimario">Como funciona</a>
+                <a href="#video" class="botaoSecundario">Ver em Ação</a>
+            </div>
         </div>
-        </div>
-        <div class="imagemHero">
+        
+        <div class="imagemHero"> <!--Imagem ilustrativa da seção de introdução-->
             <div class="quadroImagem" aria-label="Mock da máquina de reciclagem">
                 <img src="/img/reciclagem.jpg" alt="reciclagem" width="600" height="400">
             </div>
         </div>
     </section>
 
-    <section id="tecnologiaTransforma" class="secaoTecnologia" aria-label="tec-titulo">
-        <h2 id="tec-titulo" class="tituloSecundario">
-            Um passo a passo de como a
-        <span class="destaqueTitulo">
-            Maquina funciona
-        </span>
-        </h2>
+    <section id="tecnologiaTransforma" class="secaoTecnologia" aria-label="tec-titulo"> <!--Seção de tecnologia-->
+        
+        <h2 id="tec-titulo" class="tituloSecundario"> <!---Título da seção de tecnologia-->
+        Um passo a passo de como a<span class="destaqueTitulo">Maquina funciona</span></h2>
 
-            <p class="subtituloTecnologia">Hardware e software trabalhando juntos pela sustentabilidade — interface amigável, telemetria e recompensas.</p>
+        <p class="subtituloTecnologia">Hardware e software trabalhando juntos pela sustentabilidade — interface amigável, telemetria e recompensas.</p>
+        
         <div class="cardsRecursos">
     
-        <article class="cardRecurso">
-            <div class="iconeCard">
-            <img src="img/sign in icon.png" alt="Ícone de Login">
-            </div>
-            <h3 class="tituloCard">
-                Cadastre-se
-            </h3>
-            <p class="textoCard">
-                Faça seu cadastro no site escaneando o QR Code disponível na máquina ou pesquisando na internet.
-            </p>
-        </article>
+            <article class="cardRecurso"> <!--Card de recurso-->
+                
+                <div class="iconeCard"> <!--Ícone do card-->
+                    <img src="img/sign in icon.png" alt="Ícone de Login">
+                </div>
 
-        <article class="cardRecurso">
-            <div class="iconeCard">
+                <h3 class="tituloCard">Cadastre-se</h3> <!--Título do card-->
+
+                <p class="textoCard"> 
+                Faça seu cadastro no site escaneando o QR Code disponível na máquina ou pesquisando na internet.</p>
+                <!--Texto do card-->
+
+            </article>
+
+        <article class="cardRecurso"> <!--Card de recurso-->
+
+            <div class="iconeCard"> <!--Ícone do card-->
                 <img src="img/password icon.png" alt="Ícone de Código">
             </div>
-            <h3 class="tituloCard">
-                Insira o código
-            </h3>
-            <p class="textoCard">
+ 
+            <h3 class="tituloCard">Insira o código</h3> <!--Título do card-->
+
+            <p class="textoCard"> <!--Texto do card-->
                 Coloque na seção "Meu perfil" do site, o código de 6 dígitos aleatórios que será gerado pela máquina.
             </p>
         </article>
         
-        <article class="cardRecurso">
-            <div class="iconeCard">
+        <article class="cardRecurso"> <!--Card de recurso-->
+
+            <div class="iconeCard"> <!--Ícone do card-->
                 <img src="img/recycle icon.png" alt="Ícone de Reciclagem">
             </div>
-            <h3 class="tituloCard">
+
+            <h3 class="tituloCard"> <!--Título do card-->
                 Recicle
             </h3>
-            <p class="textoCard">
+             
+            <p class="textoCard"> <!--Texto do card-->
                 Coloque os materiais na máquina e receba dinheiro em troca na forma de desconto na cantina do seu colégio ou faculdade!
             </p>
         </article>
     </section>
 
-<section id="video" class="secaoSustentavel" aria-labelledby="video-titulo">
+    <section id="video" class="secaoSustentavel" aria-labelledby="video-titulo"> <!--Seção de vídeo-->
 
-    <div class="conteudoVideo">
-        <div class="textoVideo">
-            <h2 id="video-titulo" class="tituloCaixa">
-                Veja em Ação
-            </h2>
-            <p class="textoCaixa">
-                Assista à demonstração do fluxo completo — do depósito ao resgate de pontos.
-            </p>
+        <div class="conteudoVideo"> <!--Conteúdo do vídeo-->
+            <div class="textoVideo"> <!--Texto do vídeo-->
+                <h2 id="video-titulo" class="tituloCaixa"> 
+                    Veja em Ação
+                </h2> <!--Título do vídeo-->
+                <p class="textoCaixa">
+                    Assista à demonstração do fluxo completo — do depósito ao resgate de pontos.
+                </p> <!--Texto do vídeo-->
+            </div>
+
+        <div class="blocoVideoFix"> <!--Bloco do vídeo-->
+            <iframe
+            src="https://www.youtube.com/embed/n4tK7LYFxI0?si=9EVu4VQRbMxomDh0"
+            title="Vídeo Recycle em ação"
+            allow="accelerometer; 
+            autoplay; 
+            clipboard-write; 
+            encrypted-media; 
+            gyroscope; 
+            picture-in-picture"
+            allowfullscreen>  
+            </iframe> <!--Incorporação do vídeo-->
         </div>
-
-    <div class="blocoVideoFix">
-        <iframe
-        src="https://www.youtube.com/embed/n4tK7LYFxI0?si=9EVu4VQRbMxomDh0"
-        title="Vídeo Recycle em ação"
-        allow="accelerometer; 
-        autoplay; 
-        clipboard-write; 
-        encrypted-media; 
-        gyroscope; 
-        picture-in-picture"
-        allowfullscreen>  
-    </iframe>
     </div>
-</div>
-</section>
+    </section>
 
-    <section id="contadorReciclagem" class="secaoTecnologia">
+    <section id="contadorReciclagem" class="secaoTecnologia"> <!--Seção do contador de reciclagem-->
+
         <h2 class="tituloSecundario">  
             Impacto da Reciclagem
-        </h2>
-        <div class="countersWrapper">
-            <div class="contadorBox">
+        </h2> <!--Título da seção do contador de reciclagem-->
+
+        <div class="countersWrapper"> <!--Contadores-->
+            <div class="contadorBox"> <!--Box do contador-->
                 <h3 class="contador" data-target="1500">
                     0
-                </h3>
+                </h3> <!--Contador-->
                 <p>
                     Latas recicladas
-                </p>
+                </p> <!--Descrição do contador-->
             </div>
-            <div class="contadorBox">
+            <div class="contadorBox"> <!--Box do contador-->
                 <h3 class="contador" data-target="320">
                     0
-                </h3>
+                </h3> <!--Contador-->
                 <p>
                     Garrafas PET recicladas
-                </p>
+                </p> <!--Descrição do contador-->
             </div>
-            <div class="contadorBox">
+            <div class="contadorBox"> <!--Box do contador-->
                 <h3 class="contador" data-target="75">
                     0
-                </h3>
+                </h3> <!--Contador-->
                 <p>
                     Árvores salvas
-                </p>
+                </p> <!--Descrição do contador-->
             </div>
         </div>
     </section>
 
-    <section id="materiais" class="secaoTecnologia" aria-labelledby="materiais-titulo">
+    <section id="materiais" class="secaoTecnologia" aria-labelledby="materiais-titulo"> <!--Seção de materiais aceitos-->
+
         <h2 id="materiais-titulo" class="tituloSecundario">
             Materiais 
             <span class="destaqueTitulo">
                 Aceitos
-            </span></h2>
+            </span>
+        </h2> <!--Título da seção de materiais aceitos-->
+
         <p class="subtituloTecnologia">
             Tipos, condições e instruções de preparo antes do depósito.
-        </p>
-        <div class="tabelaWrapper">
-            <table class="tabelaMateriais" aria-describedby="materiais-descricao">
-            <caption id="materiais-descricao">
-                Regras para garantir a qualidade da reciclagem.
-            </caption>
-            <thead>
-            <tr>
-                <th>Material</th>
-                <th>Condição</th>
-                <th>Observações</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Garrafa PET</td>
-                <td>Limpa e seca</td>
-                <td>Sem tampa preferencialmente; amassar reduz volume.</td>
-            </tr>
-            <tr>
-                <td>Lata de Alumínio</td>
-                <td>Limpa</td>
-                <td>Evitar resíduos de líquido.</td>
-            </tr>
-            <tr>
-                <td>Outros plásticos</td>
-                <td>—</td>
-                <td>Não aceitos neste protótipo.</td>
-            </tr>
-            </tbody>
-        </table>
+        </p> <!--Subtítulo da seção de materiais aceitos-->
+
+        <div class="tabelaWrapper"> <!--Tabela de materiais aceitos-->
+
+            <table class="tabelaMateriais" aria-describedby="materiais-descricao"> <!--Tabela de materiais aceitos-->
+                <caption id="materiais-descricao">
+                    Regras para garantir a qualidade da reciclagem.
+                </caption>
+                <thead>
+                <tr>
+                    <th>Material</th>
+                    <th>Condição</th>
+                    <th>Observações</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Garrafa PET</td>
+                    <td>Limpa e seca</td>
+                    <td>Sem tampa preferencialmente; amassar reduz volume.</td>
+                </tr>
+                <tr>
+                    <td>Lata de Alumínio</td>
+                    <td>Limpa</td>
+                    <td>Evitar resíduos de líquido.</td>
+                </tr>
+                <tr>
+                    <td>Outros plásticos</td>
+                    <td>—</td>
+                    <td>Não aceitos neste protótipo.</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
-    <section id="depoimentos" class="secaoTecnologia" aria-labelledby="depoimentos-titulo">
-        <h2 id="depoimentos-titulo" class="tituloSecundario">O que as pessoas <span class="destaqueTitulo">dizem</span></h2>
+    <section id="depoimentos" class="secaoTecnologia" aria-labelledby="depoimentos-titulo"> <!--Seção de depoimentos-->
+
+        <h2 id="depoimentos-titulo" class="tituloSecundario">O que as pessoas <span class="destaqueTitulo">dizem</span></h2> <!--Título da seção de depoimentos-->
+
         <p class="subtituloTecnologia">
             Impacto social e ambiental percebido por estudantes e comunidade.
-        </p>
-        <div class="cardsRecursos">
-        <article class="cardRecurso">
-            <div class="iconeCard">
-            <img src="img/joao icon.png" alt="João">
-            </div>
-            <h3 class="tituloCard">
-            João
-            </h3>
-            <p class="textoCard">
-                “Ficou muito fácil reciclar entre uma aula e outra.”
-            </p>
-        </article>
-        <article class="cardRecurso">
-            <div class="iconeCard">
-            <img src="img/carla icon.png" alt="Carla">
-            </div>
-            <h3 class="tituloCard">
-            Carla
-            </h3>
-            <p class="textoCard">
-                “Comecei a juntar as garrafas da turma e levar na máquina.”
-            </p>
-        </article>
-        <article class="cardRecurso">
-            <div class="iconeCard">
-            <img src="img/bruno icon.png" alt="Bruno">
-            </div>
-            <h3 class="tituloCard">
-                Bruno
-            </h3>
-            <p class="textoCard">
-                “O sistema de pontos é motivador e divertido.”
-            </p>
-        </article>
+        </p> <!--Subtítulo da seção de depoimentos-->
+
+        <div class="cardsRecursos"> <!--Cards de depoimentos-->
+
+            <article class="cardRecurso"> <!--Card de depoimento-->
+                <div class="iconeCard">
+                <img src="img/joao icon.png" alt="João">
+                </div>
+                <h3 class="tituloCard">
+                João
+                </h3>
+                <p class="textoCard">
+                    “Ficou muito fácil reciclar entre uma aula e outra.”
+                </p>
+            </article>
+            <article class="cardRecurso"> <!--Card de depoimento-->
+                <div class="iconeCard">
+                <img src="img/carla icon.png" alt="Carla">
+                </div>
+                <h3 class="tituloCard">
+                Carla
+                </h3>
+                <p class="textoCard">
+                    “Comecei a juntar as garrafas da turma e levar na máquina.”
+                </p>
+            </article>
+            <article class="cardRecurso"> <!--Card de depoimento-->
+                <div class="iconeCard">
+                <img src="img/bruno icon.png" alt="Bruno">
+                </div>
+                <h3 class="tituloCard">
+                    Bruno
+                </h3>
+                <p class="textoCard">
+                    “O sistema de pontos é motivador e divertido.”
+                </p>
+            </article>
         </div>
     </section>
 
-    <section class="linhaDoTempo">
+    <section class="linhaDoTempo"> <!--Seção de linha do tempo-->
         <h2 id="linhaDoTempoTitulo" class="tituloSecundario">
             Linha do Tempo da 
             <span class="destaqueTitulo">
                 Reciclagem
             </span>
-        </h2>
+        </h2> <!--Título da seção de linha do tempo-->
     
-        <div class="timeline-container">
-            <div class="timeline-item">
-                <div class="timeline-date">
+        <div class="timeline-container"> <!--Container da linha do tempo-->
+            <div class="timeline-item"> <!--Item da linha do tempo-->
+                <div class="timeline-date"> <!--Data do item da linha do tempo-->
                     1900
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content"> <!--Conteúdo do item da linha do tempo-->
                     <h3>
                         Início da Reciclagem Industrial
                     </h3>
@@ -275,32 +293,32 @@
                 </div>
             </div>
 
-            <div class="timeline-item">
-                <div class="timeline-date">
+            <div class="timeline-item"> <!--Item da linha do tempo-->
+                <div class="timeline-date"> <!--Data do item da linha do tempo-->
                     1970
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content"> <!--Conteúdo do item da linha do tempo-->
                     <h3>
                         Movimento Ambiental
-                    </h3>
+                    </h3> <!--Título do item da linha do tempo-->
                     <p>
                         Com o avanço das décadas e o aumento da preocupação ambiental, 
                         nos anos 1970 surgiram os primeiros movimentos ecológicos e campanhas públicas 
                         voltadas à preservação do meio ambiente. 
                         Foi nessa época que o símbolo universal da reciclagem foi criado e o 
                         conceito começou a ganhar força em vários países.
-                    </p>
+                    </p> <!--Texto do item da linha do tempo-->
                 </div>    
             </div>
 
-            <div class="timeline-item">
-                <div class="timeline-date">
+            <div class="timeline-item"> <!--Item da linha do tempo-->
+                <div class="timeline-date"> <!--Data do item da linha do tempo-->
                     2000
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content"> <!--Conteúdo do item da linha do tempo-->
                     <h3>
                         Reciclagem Moderna
-                    </h3>
+                    </h3> <!--Título do item da linha do tempo-->
                     <p>
                         Já a partir dos anos 2000, com o avanço da tecnologia e o 
                         aumento da produção de resíduos, 
@@ -308,48 +326,48 @@
                         reaproveitamento e reaplicação de materiais surgiram, 
                         ampliando a sustentabilidade e o papel 
                         da reciclagem no combate à poluição global.
-                    </p>
+                    </p> <!--Texto do item da linha do tempo-->
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="politica" class="secaoSustentavel" aria-labelledby="politica-titulo">
-        <div class="containerPolitica">
+    <section id="politica" class="secaoSustentavel" aria-labelledby="politica-titulo"> <!--Seção de política de uso-->
+        <div class="containerPolitica"> <!--Container da política de uso-->
     
-    <!-- Bloco 1: texto existente -->
-    <div class="caixaInformativa">
+            <!-- Bloco 1: texto existente -->
+            <div class="caixaInformativa"> <!--Caixa informativa da política de uso-->
 
-        <h2 id="politica-titulo" class="tituloCaixa">
-            Política de Uso
-        </h2>
-        <p class="textoCaixa">
-            A máquina é um projeto acadêmico; evite depositar materiais não aceitos para manter o sistema confiável.
-        </p>
-        <ul class="listaPassos">
-            <li class="reveal">Depositantes são responsáveis pelo preparo adequado do material.</li>
-            <li class="reveal">O resgate de pontos depende da disponibilidade de parceiros.</li>
-            <li class="reveal">Em caso de dúvidas, utilize o formulário de contato.</li>
-        </ul>
-    </div>
+                <h2 id="politica-titulo" class="tituloCaixa">
+                    Política de Uso
+                </h2>
+                <p class="textoCaixa">
+                    A máquina é um projeto acadêmico; evite depositar materiais não aceitos para manter o sistema confiável.
+                </p>
+                <ul class="listaPassos"> <!--Lista de passos da política de uso-->
+                    <li class="reveal">Depositantes são responsáveis pelo preparo adequado do material.</li>
+                    <li class="reveal">O resgate de pontos depende da disponibilidade de parceiros.</li>
+                    <li class="reveal">Em caso de dúvidas, utilize o formulário de contato.</li>
+                </ul>
+            </div>
 
-    <!-- Bloco 2: imagem ao lado -->
-    <div class="imagemPolitica">
-        <img src="img/politica de uso.png" alt="Pessoa reciclando de forma correta">
-    </div>
+            <!-- Bloco 2: imagem ao lado -->
+            <div class="imagemPolitica"> <!--Imagem da política de uso-->
+                <img src="img/politica de uso.png" alt="Pessoa reciclando de forma correta">
+            </div>
 
         </div>
     </section>
 
     
-    <section id="beneficios" class="secaoTecnologia" aria-labelledby="beneficios-titulo">
+    <section id="beneficios" class="secaoTecnologia" aria-labelledby="beneficios-titulo"> <!--Seção de benefícios da reciclagem-->
 
         <h2 id="beneficios-titulo" class="tituloSecundario">Benefícios da <span class="destaqueTitulo">Reciclagem</span></h2>
         <p class="subtituloTecnologia">
             Descubra por que reciclar é tão importante para o planeta e para todos nós.
         </p>
-        <div class="cardsRecursos">
-            <article class="cardRecurso">
+        <div class="cardsRecursos"> <!--Cards de benefícios da reciclagem-->
+            <article class="cardRecurso"> <!--Card de benefício da reciclagem-->
                 <div class="iconeCard">
                     <img src="img/preservação ambiental.png" alt="Planeta Terra">
                 </div>
@@ -361,7 +379,7 @@
                 </p>
             </article>
 
-            <article class="cardRecurso">
+            <article class="cardRecurso"> <!--Card de benefício da reciclagem-->
                 <div class="iconeCard">
                     <img src="img/economia de energia.png" alt="Energia Sustentável">
                 </div>
@@ -373,7 +391,7 @@
                 </p>
             </article>
 
-            <article class="cardRecurso">
+            <article class="cardRecurso"> <!--Card de benefício da reciclagem-->
                 <div class="iconeCard">
                     <img src="img/geração de empregos.png" alt="Emprego Verde">
                 </div>
@@ -387,16 +405,16 @@
         </div>
     </section>
 
-    <button id="botaoTema" class="botaoFlutuante" title="Alternar tema" style="bottom: 100px; right: 20px;">🌓</button>
-    <button id="botaoTopo" class="botaoFlutuante" title="Voltar ao topo" style="bottom: 160px; right: 20px;">↑</button>
+    <button id="botaoTema" class="botaoFlutuante" title="Alternar tema" style="bottom: 100px; right: 20px;">🌓</button> <!--Botões flutuantes-->
+    <button id="botaoTopo" class="botaoFlutuante" title="Voltar ao topo" style="bottom: 160px; right: 20px;">↑</button> <!--Botões flutuantes-->
 
-    <section id="parcerias" class="secaoTecnologia" aria-labelledby="parcerias-titulo">
+    <section id="parcerias" class="secaoTecnologia" aria-labelledby="parcerias-titulo"> <!--Seção de parcerias-->
         <h2 id="parcerias-titulo" class="tituloSecundario">Nossas <span class="destaqueTitulo">Parcerias Sustentáveis</span></h2>
         <p class="subtituloTecnologia">
             A Recycle conta com o apoio de diversas instituições comprometidas com o futuro verde.
         </p>
-        <div class="cardsRecursos">
-            <article class="cardRecurso">
+        <div class="cardsRecursos"> <!--Cards de parcerias-->
+            <article class="cardRecurso"> <!--Card de parceria-->
                 <div class="iconeCard"><img src="img/escola.png" alt="Instituições de Ensino"></div>
                 <h3 class="tituloCard">
                     Instituições de Ensino
@@ -406,7 +424,7 @@
                 </p>
             </article>
 
-            <article class="cardRecurso">
+            <article class="cardRecurso"> <!--Card de parceria-->
                 <div class="iconeCard"><img src="img/empresa.png" alt="Empresas Verdes"></div>
                 <h3 class="tituloCard">
                     Empresas Verdes
@@ -416,7 +434,7 @@
                 </p>
             </article>
 
-            <article class="cardRecurso">
+            <article class="cardRecurso"> <!--Card de parceria-->
                 <div class="iconeCard"><img src="img/governo.png" alt="Prefeituras e Órgãos Públicos"></div>
                 <h3 class="tituloCard">
                     Governo e ONGs
@@ -428,276 +446,278 @@
         </div>
     </section>
 
-    <section id="especificacoes" class="secaoSustentavel" aria-labelledby="especificacoes-titulo">
-        <div class="caixaInformativa">
-        <h2 id="especificacoes-titulo" class="tituloCaixa">
-            Especificações Técnicas
-        </h2>
-        <p class="textoCaixa">
-            Componentes principais da versão atual do protótipo.
-        </p>
-        <div class="tabelaWrapper">
-            <table class="tabelaMateriais" aria-label="Tabela de componentes e funções">
-            <thead>
-                <tr>
-                <th>Componente</th>
-                <th>Modelo/Tipo</th>
-                <th>Função</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td>Microcontrolador</td>
-                <td>ESP32</td>
-                <td>Processamento, Wi-Fi/BLE, integração com dashboard.</td>
-                </tr>
-                <tr>
-                <td>Sensores</td>
-                <td>Infravermelho + Indução</td>
-                <td>Detecção de passagem e identificação de metal.</td>
-                </tr>
-                <tr>
-                <td>Ato­ador</td>
-                <td>Servo padrão 9g</td>
-                <td>Abertura/fechamento da porta de retenção.</td>
-                </tr>
-                <tr>
-                <td>Exibição</td>
-                <td>LCD 16x2 I²C</td>
-                <td>Feedback ao usuário (pontos, status, mensagens).</td>
-                </tr>
-                <tr>
-                <td>Entrada</td>
-                <td>Touchscreen (futuro)</td>
-                <td>Interface direta para navegação e confirmações.</td>
-                </tr>
-                <tr>
-                <td>Energia</td>
-                <td>Fonte 5V/2A</td>
-                <td>Alimentação de placas e periféricos.</td>
-                </tr>
-                <tr>
-                <td>Rede</td>
-                <td>Wi-Fi 2.4 GHz</td>
-                <td>Sincronização de dados e atualização de campanhas.</td>
-                </tr>
-                <tr>
-                <td>Estrutura</td>
-                <td>Chapa/impresso 3D</td>
-                <td>Gabinete modular para manutenção simples.</td>
-                </tr>
-            </tbody>
-            </table>
-        </div>
+    <section id="especificacoes" class="secaoSustentavel" aria-labelledby="especificacoes-titulo"> <!--Seção de especificações técnicas-->
+        <div class="caixaInformativa"> <!--Caixa informativa de especificações técnicas-->
+            <h2 id="especificacoes-titulo" class="tituloCaixa">
+                Especificações Técnicas
+            </h2>
+            <p class="textoCaixa">
+                Componentes principais da versão atual do protótipo.
+            </p>
+            <div class="tabelaWrapper"> <!--Tabela de especificações técnicas-->
+                <table class="tabelaMateriais" aria-label="Tabela de componentes e funções"> <!--Tabela de especificações técnicas-->
+                <thead>
+                    <tr>
+                    <th>Componente</th>
+                    <th>Modelo/Tipo</th>
+                    <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody> <!--Corpo da tabela de especificações técnicas-->
+                    <tr>
+                    <td>Microcontrolador</td>
+                    <td>ESP32</td>
+                    <td>Processamento, Wi-Fi/BLE, integração com dashboard.</td>
+                    </tr>
+                    <tr>
+                    <td>Sensores</td>
+                    <td>Infravermelho + Indução</td>
+                    <td>Detecção de passagem e identificação de metal.</td>
+                    </tr>
+                    <tr>
+                    <td>Ato­ador</td>
+                    <td>Servo padrão 9g</td>
+                    <td>Abertura/fechamento da porta de retenção.</td>
+                    </tr>
+                    <tr>
+                    <td>Exibição</td>
+                    <td>LCD 16x2 I²C</td>
+                    <td>Feedback ao usuário (pontos, status, mensagens).</td>
+                    </tr>
+                    <tr>
+                    <td>Entrada</td>
+                    <td>Touchscreen (futuro)</td>
+                    <td>Interface direta para navegação e confirmações.</td>
+                    </tr>
+                    <tr>
+                    <td>Energia</td>
+                    <td>Fonte 5V/2A</td>
+                    <td>Alimentação de placas e periféricos.</td>
+                    </tr>
+                    <tr>
+                    <td>Rede</td>
+                    <td>Wi-Fi 2.4 GHz</td>
+                    <td>Sincronização de dados e atualização de campanhas.</td>
+                    </tr>
+                    <tr>
+                    <td>Estrutura</td>
+                    <td>Chapa/impresso 3D</td>
+                    <td>Gabinete modular para manutenção simples.</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
         </div>
     </section>
+ 
+    <div class="linhaCuriosidadesFAQ"> <!--Divisão entre curiosidades e FAQ-->
+        <section id="curiosidades" class="secaoSustentavel" aria-labelledby="curiosidades-titulo"> <!--Seção de curiosidades-->
+            <div class="caixaInformativa"> <!--Caixa informativa de curiosidades-->
+                <h2 id="curiosidades-titulo" class="tituloCaixa">Curiosidades sobre a Reciclagem</h2>
+                <p class="textoCaixa">
+                    Você sabia que pequenas ações do dia a dia podem gerar grandes mudanças para o meio ambiente?
+                </p>
+                <ul class="listaPassos"> <!--Lista de curiosidades-->
+                    <li> 
+                        <details>
+                            <summary>
+                                ♻️ A importância da reciclagem de latas de alumínio
+                            </summary>
+                                <p>
+                                    Reciclar uma única lata de alumínio economiza energia suficiente 
+                                    para manter uma televisão ligada por até 3 horas!
+                                    O alumínio é um dos materiais mais valiosos da reciclagem, 
+                                    pois pode ser reaproveitado infinitamente sem perder qualidade.
+                                </p>
+                            </details>  
+                        </li>
 
-<div class="linhaCuriosidadesFAQ">
-    <section id="curiosidades" class="secaoSustentavel" aria-labelledby="curiosidades-titulo">
-        <div class="caixaInformativa">
-            <h2 id="curiosidades-titulo" class="tituloCaixa">Curiosidades sobre a Reciclagem</h2>
-            <p class="textoCaixa">
-                Você sabia que pequenas ações do dia a dia podem gerar grandes mudanças para o meio ambiente?
-            </p>
-            <ul class="listaPassos">
-                <li>
-                    <details>
-                        <summary>
-                            ♻️ A importância da reciclagem de latas de alumínio
-                        </summary>
-                            <p>
-                                Reciclar uma única lata de alumínio economiza energia suficiente 
-                                para manter uma televisão ligada por até 3 horas!
-                                O alumínio é um dos materiais mais valiosos da reciclagem, 
-                                pois pode ser reaproveitado infinitamente sem perder qualidade.
-                            </p>
-                        </details>  
-                    </li>
+                        <li> 
+                            <details>
+                                <summary>
+                                    🌍 O Brasil e a reciclagem do Alumínio
+                                </summary>
+                                <p>
+                                    O Brasil é um dos líderes mundiais na reciclagem de alumínio.
+                                    Mais de 97% das latas de alumínio vendidas no país são recicladas 
+                                    — um dos maiores índices do mundo.
+                                </p>
+                            </details>  
+                        </li> 
+
+                        <li>
+                            <details>
+                                <summary>
+                                    🧴 A destinação das garrafas PET
+                                </summary>
+                                <p>
+                                    As garrafas PET podem ter muitos destinos diferentes.
+                                    Elas se transformam em roupas, mochilas, carpetes, vassouras, 
+                                    mantas e até em enchimentos de almofadas e travesseiros.
+                                </p>
+                            </details>
+                        </li>
 
                     <li>
                         <details>
                             <summary>
-                                🌍 O Brasil e a reciclagem do Alumínio
-                            </summary>
+                                💡A reciclagem do papel
+                            </summary> 
                             <p>
-                                O Brasil é um dos líderes mundiais na reciclagem de alumínio.
-                                Mais de 97% das latas de alumínio vendidas no país são recicladas 
-                                — um dos maiores índices do mundo.
-                            </p>
-                        </details>  
-                    </li>
-
-                    <li>
-                        <details>
-                            <summary>
-                                🧴 A destinação das garrafas PET
-                            </summary>
-                            <p>
-                                As garrafas PET podem ter muitos destinos diferentes.
-                                Elas se transformam em roupas, mochilas, carpetes, vassouras, 
-                                mantas e até em enchimentos de almofadas e travesseiros.
+                                Reciclar papel economiza árvores e água.
+                                Cada tonelada de papel reciclado poupa cerca 
+                                de 22 árvores adultas e 36 mil litros de água.
                             </p>
                         </details>
                     </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            💡A reciclagem do papel
-                        </summary> 
-                        <p>
-                            Reciclar papel economiza árvores e água.
-                            Cada tonelada de papel reciclado poupa cerca 
-                            de 22 árvores adultas e 36 mil litros de água.
-                        </p>
-                    </details>
-                </li>
+                    <li>
+                        <details>
+                            <summary>
+                                🌱 A reciclagem do vidro
+                            </summary>
+                            <p>
+                                O vidro é 100% reciclável e pode ser reciclado infinitas vezes.
+                                Uma garrafa de vidro reciclada pode se tornar outra garrafa sem perder 
+                                nenhuma qualidade no processo.
+                            </p>
+                        </details>
+                    </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            🌱 A reciclagem do vidro
-                        </summary>
-                        <p>
-                            O vidro é 100% reciclável e pode ser reciclado infinitas vezes.
-                            Uma garrafa de vidro reciclada pode se tornar outra garrafa sem perder 
-                            nenhuma qualidade no processo.
-                        </p>
-                    </details>
-                </li>
+                    <li>
+                        <details>
+                            <summary>
+                                🔋 Pilhas e baterias 
+                            </summary>
+                            <p>
+                                As pilhas e baterias contêm metais pesados perigosos, como mercúrio e chumbo.
+                                Reciclar esses materiais evita a contaminação de solo e água, protegendo ecossistemas inteiros.
+                            </p>
+                        </details>
+                    </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            🔋 Pilhas e baterias 
-                        </summary>
-                        <p>
-                            As pilhas e baterias contêm metais pesados perigosos, como mercúrio e chumbo.
-                            Reciclar esses materiais evita a contaminação de solo e água, protegendo ecossistemas inteiros.
-                        </p>
-                    </details>
-                </li>
+                    <li>
+                        <details>
+                            <summary>
+                                🚛 Separação correta do lixo 
+                            </summary>
+                            <p>
+                                Separar o lixo corretamente reduz em até 30% o volume destinado a aterros sanitários.
+                                Isso prolonga a vida útil dos aterros e diminui os impactos ambientais.    
+                            </p>
+                        </details>
+                    </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            🚛 Separação correta do lixo 
-                        </summary>
-                        <p>
-                            Separar o lixo corretamente reduz em até 30% o volume destinado a aterros sanitários.
-                            Isso prolonga a vida útil dos aterros e diminui os impactos ambientais.    
-                        </p>
-                    </details>
-                </li>
+                    <li>
+                        <details>
+                            <summary>
+                                🌡️ A reciclagem também ajuda a combater o aquecimento global.
+                            </summary>
+                            <p>
+                                A fabricação de produtos reciclados consome menos energia e emite menos gases de efeito estufa.
+                            </p>
+                        </details>
+                    </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            🌡️ A reciclagem também ajuda a combater o aquecimento global.
-                        </summary>
-                        <p>
-                            A fabricação de produtos reciclados consome menos energia e emite menos gases de efeito estufa.
-                        </p>
-                    </details>
-                </li>
+                    <li>
+                        <details>
+                            <summary>
+                                👖 Algumas roupas “verdes” são feitas de plástico reciclado.
+                            </summary>
+                            <p>
+                                Grandes marcas já produzem tecidos com fios feitos a partir de garrafas PET.
+                            </p>
+                        </details>
+                    </li>
 
-                <li>
-                    <details>
-                        <summary>
-                            👖 Algumas roupas “verdes” são feitas de plástico reciclado.
-                        </summary>
-                        <p>
-                            Grandes marcas já produzem tecidos com fios feitos a partir de garrafas PET.
-                        </p>
-                    </details>
-                </li>
-
-                <li>
-                    <details>
-                        <summary>
-                            🏭 Produção do alumínio
-                        </summary>
-                        <p>
-                            Produzir alumínio a partir da reciclagem gasta 95% menos energia 
-                            do que produzir a partir da matéria-prima original (a bauxita).
-                        </p>
-                    </details>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="faq" class="secaoSustentavel" aria-labelledby="faq-titulo">
-        <div class="caixaInformativa">
-            <h2 id="faq-titulo" class="tituloCaixa">
-                Perguntas Frequentes (FAQ)
-            </h2>
-            <div class="listaPassos">
-                <details>
-
-                    <summary>
-                        Quais materiais posso depositar na máquina?
-
-                    </summary>
-                    <p>
-                        A máquina aceita garrafas PET limpas e secas, além de latas de alumínio sem resíduos.
-                    </p>
-                </details>
-
-                <details>
-                    <summary>
-                        O que faço com materiais não aceitos?
-                    </summary>
-                    <p>
-                        Procure os ecopontos da sua cidade para o descarte correto.
-                    </p>
-                </details>
-
-                <details>
-
-                    <summary>
-                        Como funciona o sistema de pontos?
-                    </summary>
-                    <p>
-                        A cada material aceito, você acumula pontos que podem ser trocados por descontos.
-                    </p>
-                </details>
-
-                <details>
-
-                    <summary>
-                        Posso acompanhar meus resultados?
-                    </summary>
-                    <p>
-                        Sim! Acesse seu perfil e veja o histórico de reciclagens realizadas.
-                    </p>
-                </details>
+                    <li>
+                        <details>
+                            <summary>
+                                🏭 Produção do alumínio
+                            </summary>
+                            <p>
+                                Produzir alumínio a partir da reciclagem gasta 95% menos energia 
+                                do que produzir a partir da matéria-prima original (a bauxita).
+                            </p>
+                        </details>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
 
-    <footer class="rodape">
-    <div class="rodape-container">
-        <div class="linksRodape">
-        <a href="index.html">Home</a>
-        <a href="ods.html">ODSs</a>
-        <a href="sobremaquina.html">Sobre a Máquina</a>
-        <a href="sobrenos.html">Sobre Nós</a>
-        <a href="contato.html">Contato</a>
+        <section id="faq" class="secaoSustentavel" aria-labelledby="faq-titulo"> <!--Seção de FAQ-->
+            <div class="caixaInformativa"> <!--Caixa informativa de FAQ-->
+                <h2 id="faq-titulo" class="tituloCaixa">
+                    Perguntas Frequentes (FAQ)
+                </h2>
+                <div class="listaPassos"> <!--Lista de perguntas frequentes-->
+                    <details>
+
+                        <summary>
+                            Quais materiais posso depositar na máquina?
+
+                        </summary>
+                        <p>
+                            A máquina aceita garrafas PET limpas e secas, além de latas de alumínio sem resíduos.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            O que faço com materiais não aceitos?
+                        </summary>
+                        <p>
+                            Procure os ecopontos da sua cidade para o descarte correto.
+                        </p>
+                    </details>
+
+                    <details>
+
+                        <summary>
+                            Como funciona o sistema de pontos?
+                        </summary>
+                        <p>
+                            A cada material aceito, você acumula pontos que podem ser trocados por descontos.
+                        </p>
+                    </details>
+
+                    <details>
+
+                        <summary>
+                            Posso acompanhar meus resultados?
+                        </summary>
+                        <p>
+                            Sim! Acesse seu perfil e veja o histórico de reciclagens realizadas.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="rodape"> <!--Rodapé do site-->
+
+    <div class="rodape-container"> <!--Container do rodapé-->
+
+        <div class="linksRodape"> <!--Links do rodapé-->
+            <a href="index.html">Home</a>
+            <a href="ods.html">ODSs</a>
+            <a href="sobremaquina.html">Sobre a Máquina</a>
+            <a href="sobrenos.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
         </div>
 
-        <div class="redesSociaisRodape">
-        <a href="https://www.instagram.com"><img src="img/instagram icon branco.png" alt="Instagram" target="_blank"></a>
-        <a href="https://www.facebook.com"><img src="img/facebook icon branco.png" alt="Facebook" target="_blank"></a>
-        <a href="https://www.twitter.com"><img src="img/twitter icon branco.png" alt="Twitter" target="_blank"></a>
-        <a href="https://www.youtube.com"><img src="img/youtube icon branco.png" alt="YouTube" target="_blank"></a>
+        <div class="redesSociaisRodape"> <!--Redes sociais do rodapé-->
+            <a href="https://www.instagram.com"><img src="img/instagram icon branco.png" alt="Instagram" target="_blank"></a>
+            <a href="https://www.facebook.com"><img src="img/facebook icon branco.png" alt="Facebook" target="_blank"></a>
+            <a href="https://www.twitter.com"><img src="img/twitter icon branco.png" alt="Twitter" target="_blank"></a>
+            <a href="https://www.youtube.com"><img src="img/youtube icon branco.png" alt="YouTube" target="_blank"></a>
         </div>
     </div>
 
-    <p>&copy; 2025 Recycle. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Recycle. Todos os direitos reservados.</p> <!--Direitos autorais do rodapé-->
     </footer>
 
-    <script src="javascript/script.js"></script>
+    <script src="javascript/script.js"></script> <!--Link para o arquivo JavaScript-->
 </body>
 </html>
